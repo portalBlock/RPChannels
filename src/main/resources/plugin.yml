@@ -1,0 +1,32 @@
+name: RPChannels
+main: net.portalblock.rpchannels.RPChannels
+version: 1.7
+commands:
+   rpccreate:
+      description: Creates a channel.
+      usage: /rpccreate
+   rpcadd:
+      description: Adds a user to your channel.
+      usage: /rpcadd
+   rpcjoin:
+      description: Creates a channel.
+      usage: /rpccreate
+   rpcallow:
+      description: Adds a user to your channel.
+      usage: /rpcadd
+   rpcleave:
+      description: Leaves the current channel.
+      usage: /rpcleave
+   rpctog:
+      description: Toggels chat for channel.
+      usage: /rpctog
+   rpchelp:
+      description: Displays help information.
+      usage: /rpchelp
+   rpchear:
+      description: Allows admins to hear channel chat.
+      usage: /rpchelp
+permissions:
+      rpc.hear:
+      description: Allows you to hear all conversations from roleplay channels
+      default: false
